@@ -3,3 +3,4 @@ venv/
 valar_database/
 *.pyc
 __pycache__/
+webapp/vmmonitor/output/
