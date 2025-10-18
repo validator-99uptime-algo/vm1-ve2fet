@@ -99,7 +99,10 @@
     </a>
 
     <!-- NFD avatar (16 px via CSS) -->
-    {% if r.nfd_avatar %}<img src="{{ r.nfd_avatar }}">{% endif %}
+    <!-- NFD avatar (only render if it's an absolute URL) -->
+    {% if r.nfd_avatar and r.nfd_avatar[:4] == 'http' %}
+      <img src="{{ r.nfd_avatar }}" style="height:16px" loading="lazy" decoding="async" onerror="this.remove()">
+    {% endif %}
 
     <!-- NFD name or short addr -->
     {% if r.nfd_name %}

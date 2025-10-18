@@ -1,309 +1,89 @@
 [
-{
-  "host": "vm10.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815224
-}
+{"host":"Algorand-VM10","reachable":true,"hostname":"Algorand-VM10","kernel":"6.8.0-85-generic","uptime_seconds":1292803,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760776147,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821547}
 ,
-{
-  "host": "vm11.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815224
-}
+{"host":"Algorand-VM11","reachable":true,"hostname":"Algorand-VM11","kernel":"6.8.0-85-generic","uptime_seconds":1292786,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760761072,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821549}
 ,
-{
-  "host": "vm12.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815224
-}
+{"host":"Algorand-VM12","reachable":true,"hostname":"Algorand-VM12","kernel":"6.8.0-85-generic","uptime_seconds":1292767,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760752189,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821552}
 ,
-{
-  "host": "vm13.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815224
-}
+{"host":"Algorand-VM13","reachable":true,"hostname":"Algorand-VM13","kernel":"6.8.0-85-generic","uptime_seconds":1292735,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760751483,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821554}
 ,
-{
-  "host": "vm14.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815225
-}
+{"host":"Algorand-VM14","reachable":true,"hostname":"Algorand-VM14","kernel":"6.8.0-85-generic","uptime_seconds":1292717,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760797623,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821557}
 ,
-{
-  "host": "vm15.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815225
-}
+{"host":"Algorand-VM15","reachable":true,"hostname":"Algorand-VM15","kernel":"6.8.0-85-generic","uptime_seconds":188077,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760778478,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821560}
 ,
-{
-  "host": "vm16.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815225
-}
+{"host":"Algorand-VM16","reachable":true,"hostname":"Algorand-VM16","kernel":"6.8.0-85-generic","uptime_seconds":1292670,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760807718,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821562}
 ,
-{
-  "host": "vm17.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815225
-}
+{"host":"Algorand-VM17","reachable":true,"hostname":"Algorand-VM17","kernel":"6.8.0-85-generic","uptime_seconds":1292650,"vcpus":10,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760797824,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821565}
 ,
-{
-  "host": "vm18.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815226
-}
+{"host":"Algorand-VM18","reachable":true,"hostname":"Algorand-VM18","kernel":"6.8.0-85-generic","uptime_seconds":788636,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":14,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760786500,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821568}
 ,
-{
-  "host": "vm19.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815226
-}
+{"host":"Algorand-VM19","reachable":true,"hostname":"Algorand-VM19","kernel":"6.8.0-85-generic","uptime_seconds":1292562,"vcpus":8,"disk_root_free":"62G","swap_used_mb":1,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760802431,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821570}
 ,
-{
-  "host": "vm1.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815222
-}
+{"host":"algorand-node","reachable":true,"hostname":"algorand-node","kernel":"6.8.0-85-generic","uptime_seconds":2329,"vcpus":16,"disk_root_free":"195G","swap_used_mb":0,"pending_updates":3,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760749284,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821523}
 ,
-{
-  "host": "vm20.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815226
-}
+{"host":"Algorand-VM20","reachable":true,"hostname":"Algorand-VM20","kernel":"6.8.0-85-generic","uptime_seconds":1292454,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760757718,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821572}
 ,
-{
-  "host": "vm21.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815226
-}
+{"host":"Algorand-VM21","reachable":true,"hostname":"Algorand-VM21","kernel":"6.8.0-85-generic","uptime_seconds":1292521,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760747477,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821574}
 ,
-{
-  "host": "vm22.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815226
-}
+{"host":"Algorand-VM22","reachable":true,"hostname":"Algorand-VM22","kernel":"6.8.0-85-generic","uptime_seconds":1292504,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760788163,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821577}
 ,
-{
-  "host": "vm23.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815227
-}
+{"host":"Algorand-VM23","reachable":true,"hostname":"Algorand-VM23","kernel":"6.8.0-85-generic","uptime_seconds":1292471,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760749752,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821580}
 ,
-{
-  "host": "vm24.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815227
-}
+{"host":"Algorand-VM24","reachable":true,"hostname":"Algorand-VM24","kernel":"6.8.0-85-generic","uptime_seconds":788572,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":5,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760753182,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821582}
 ,
-{
-  "host": "vm25.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815227
-}
+{"host":"Algorand-VM25","reachable":true,"hostname":"Algorand-VM25","kernel":"6.8.0-85-generic","uptime_seconds":1292433,"vcpus":8,"disk_root_free":"53G","swap_used_mb":1,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760750731,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821585}
 ,
-{
-  "host": "vm26.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815227
-}
+{"host":"Algorand-VM26","reachable":true,"hostname":"Algorand-VM26","kernel":"6.8.0-85-generic","uptime_seconds":1292412,"vcpus":8,"disk_root_free":"62G","swap_used_mb":1,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760770736,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821588}
 ,
-{
-  "host": "vm27.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815227
-}
+{"host":"Algorand-VM27","reachable":true,"hostname":"Algorand-VM27","kernel":"6.8.0-85-generic","uptime_seconds":1292395,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760779923,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821590}
 ,
-{
-  "host": "vm28.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815228
-}
+{"host":"Algorand-VM28","reachable":true,"hostname":"Algorand-VM28","kernel":"6.8.0-85-generic","uptime_seconds":1292378,"vcpus":8,"disk_root_free":"61G","swap_used_mb":1,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760748298,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821593}
 ,
-{
-  "host": "vm29.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815228
-}
+{"host":"Algorand-VM29","reachable":true,"hostname":"Algorand-VM29","kernel":"6.8.0-85-generic","uptime_seconds":1292360,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760767470,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821595}
 ,
-{
-  "host": "vm2.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815222
-}
+{"host":"Algorand-VM2","reachable":true,"hostname":"Algorand-VM2","kernel":"6.8.0-85-generic","uptime_seconds":1293020,"vcpus":10,"disk_root_free":"61G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760805843,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821526}
 ,
-{
-  "host": "vm30.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815228
-}
+{"host":"Algorand-VM30","reachable":true,"hostname":"Algorand-VM30","kernel":"6.8.0-85-generic","uptime_seconds":1292338,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760767228,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821598}
 ,
-{
-  "host": "vm31.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815228
-}
+{"host":"Algorand-VM31","reachable":true,"hostname":"Algorand-VM31","kernel":"6.8.0-85-generic","uptime_seconds":1292320,"vcpus":8,"disk_root_free":"62G","swap_used_mb":1,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760794489,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821600}
 ,
-{
-  "host": "vm32.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815229
-}
+{"host":"Algorand-VM32","reachable":true,"hostname":"Algorand-VM32","kernel":"6.8.0-85-generic","uptime_seconds":1292303,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760753588,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821603}
 ,
-{
-  "host": "vm33.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815229
-}
+{"host":"Algorand-VM33","reachable":true,"hostname":"Algorand-VM33","kernel":"6.8.0-85-generic","uptime_seconds":1292285,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760756435,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821605}
 ,
-{
-  "host": "vm34.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815229
-}
+{"host":"Algorand-VM34","reachable":true,"hostname":"Algorand-VM34","kernel":"6.8.0-85-generic","uptime_seconds":1292265,"vcpus":8,"disk_root_free":"62G","swap_used_mb":1,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760770008,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821608}
 ,
-{
-  "host": "vm35.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815229
-}
+{"host":"Algorand-VM35","reachable":true,"hostname":"Algorand-VM35","kernel":"6.8.0-85-generic","uptime_seconds":1292243,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760785892,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821610}
 ,
-{
-  "host": "vm36.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815229
-}
+{"host":"Algorand-VM36","reachable":true,"hostname":"Algorand-VM36","kernel":"6.8.0-85-generic","uptime_seconds":1292219,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760797923,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821613}
 ,
-{
-  "host": "vm37.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815230
-}
+{"host":"Algorand-VM37","reachable":true,"hostname":"Algorand-VM37","kernel":"6.8.0-85-generic","uptime_seconds":1292198,"vcpus":8,"disk_root_free":"61G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760803803,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821616}
 ,
-{
-  "host": "vm38.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815230
-}
+{"host":"Algorand-VM38","reachable":true,"hostname":"Algorand-VM38","kernel":"6.8.0-85-generic","uptime_seconds":1292180,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760769327,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821618}
 ,
-{
-  "host": "vm39.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815230
-}
+{"host":"Algorand-VM39","reachable":true,"hostname":"Algorand-VM39","kernel":"6.8.0-85-generic","uptime_seconds":1292157,"vcpus":8,"disk_root_free":"62G","swap_used_mb":1,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760772773,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821621}
 ,
-{
-  "host": "vm3.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815222
-}
+{"host":"Algorand-VM3","reachable":true,"hostname":"Algorand-VM3","kernel":"6.8.0-85-generic","uptime_seconds":1292996,"vcpus":8,"disk_root_free":"62G","swap_used_mb":1,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760777314,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821529}
 ,
-{
-  "host": "vm40.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815230
-}
+{"host":"Algorand-VM40","reachable":true,"hostname":"Algorand-VM40","kernel":"6.8.0-85-generic","uptime_seconds":1292135,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760761652,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821624}
 ,
-{
-  "host": "vm41.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815230
-}
+{"host":"Algorand-VM41","reachable":true,"hostname":"Algorand-VM41","kernel":"6.8.0-85-generic","uptime_seconds":1292117,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760750241,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821627}
 ,
-{
-  "host": "vm42.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815231
-}
+{"host":"Algorand-VM42","reachable":true,"hostname":"Algorand-VM42","kernel":"6.8.0-85-generic","uptime_seconds":1292098,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760762246,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821630}
 ,
-{
-  "host": "vm43.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815231
-}
+{"host":"Algorand-VM43","reachable":true,"hostname":"Algorand-VM43","kernel":"6.8.0-85-generic","uptime_seconds":1292075,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760761121,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821633}
 ,
-{
-  "host": "vm44.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815231
-}
+{"host":"Algorand-VM44","reachable":true,"hostname":"Algorand-VM44","kernel":"6.8.0-85-generic","uptime_seconds":1292054,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760777729,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821636}
 ,
-{
-  "host": "vm4.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815223
-}
+{"host":"Algorand-VM4","reachable":true,"hostname":"Algorand-VM4","kernel":"6.8.0-85-generic","uptime_seconds":1292935,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760796679,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821531}
 ,
-{
-  "host": "vm5.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815223
-}
+{"host":"Algorand-VM5","reachable":true,"hostname":"Algorand-VM5","kernel":"6.8.0-85-generic","uptime_seconds":1292912,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760750042,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821534}
 ,
-{
-  "host": "vm6.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815223
-}
+{"host":"Algorand-VM6","reachable":true,"hostname":"Algorand-VM6","kernel":"6.8.0-85-generic","uptime_seconds":1292881,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760788058,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821537}
 ,
-{
-  "host": "vm7.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815223
-}
+{"host":"Algorand-VM7","reachable":true,"hostname":"Algorand-VM7","kernel":"6.8.0-85-generic","uptime_seconds":1292863,"vcpus":8,"disk_root_free":"62G","swap_used_mb":1,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760806351,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821539}
 ,
-{
-  "host": "vm8.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815223
-}
+{"host":"Algorand-VM8","reachable":true,"hostname":"Algorand-VM8","kernel":"6.8.0-85-generic","uptime_seconds":1292846,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760773697,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821542}
 ,
-{
-  "host": "vm9.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815224
-}
+{"host":"Algorand-VM9","reachable":true,"hostname":"Algorand-VM9","kernel":"6.8.0-85-generic","uptime_seconds":1292828,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":15,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760749443,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821544}
 ]

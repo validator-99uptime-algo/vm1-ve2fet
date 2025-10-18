@@ -1,5 +1,5 @@
 #!/bin/bash
-# Collector: loop explicitly from VM41..VM41 (easy to expand later).
+# Collector: loop explicitly from VM41..VM44 (easy to expand later).
 # No sudo on remotes. Serial SSH. Writes per-host JSON + aggregate JSON.
 # Logs to vmmonitor/logs/.
 

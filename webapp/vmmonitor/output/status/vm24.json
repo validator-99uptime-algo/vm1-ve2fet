@@ -1,6 +1,1 @@
-{
-  "host": "vm24.local",
-  "reachable": false,
-  "error": "ssh or remote script failed",
-  "collected_at": 1760815227
-}
+{"host":"Algorand-VM24","reachable":true,"hostname":"Algorand-VM24","kernel":"6.8.0-85-generic","uptime_seconds":788572,"vcpus":8,"disk_root_free":"62G","swap_used_mb":0,"pending_updates":5,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760753182,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760821582}
