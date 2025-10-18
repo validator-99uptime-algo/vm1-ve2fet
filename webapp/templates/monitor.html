@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Network Monitor Results</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"
+    />
+    <style>
+      body { font-family: sans-serif; margin: 1em; }
+      table.dataTable { width: 100% !important; }
+      .dt-center { text-align: center; }
+    </style>
+  </head>
+  <body>
+    <h1>Network Monitor Results</h1>
+    <table id="monitorTable" class="display">
+      <thead>
+        <tr>
+          <th>Host</th>
+          <th>Type</th>
+          <th>Timestamp</th>
+          <th class="dt-center">Success</th>
+          <th class="dt-center">RT (ms)</th>
+          <th>Error</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for host, ctype, ts, success, rt, err in rows %}
+        <tr>
+          <td>{{ host }}</td>
+          <td>{{ ctype }}</td>
+          <td>{{ ts }}</td>
+          <td class="dt-center">{{ "✅" if success else "❌" }}</td>
+          <td class="dt-center">{{ rt or "-" }}</td>
+          <td>{{ err or "" }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#monitorTable').DataTable({
+          order: [[2,'desc']],
+          pageLength: 25,
+          columnDefs: [{ targets:[3,4], orderable:true, className:'dt-center' }]
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Network Monitor Graph</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon"></script>
+
+    <style>
+      body { font-family: sans-serif; margin: 1em; }
+      #controls { margin-bottom: 1em; }
+      canvas { max-width: 100%; height: 300px; }
+    </style>
+  </head>
+  <body>
+    <h1>Network Monitor Graph</h1>
+    <div id="controls">
+      View: 
+      <select id="rangeSelect">
+        <option value="0.25">15 min</option>
+        <option value="0.5">30 min</option>
+        <option value="1">1 h</option>
+        <option value="3">3 h</option>
+        <option value="6">6 h</option>
+        <option value="12">12 h</option>
+        <option value="24">24 h</option>
+        <option value="36">36 h</option>
+        <option value="48">48 h</option>
+        <option value="168">1 week</option>
+        <option value="720">1 month</option>
+        <option value="all">All</option>
+      </select>
+    </div>
+    <canvas id="lineChart"></canvas>
+    <canvas id="barChart"></canvas>
+
+<script>
+let lineChartObj = null;
+let barChartObj = null;
+
+async function fetchData() {
+  const resp = await fetch('/monitorgraph/data');
+  return await resp.json();
+}
+
+function filterData(data, hours) {
+  if (hours === 'all') return data;
+  if (!data.length) return data;
+  const now = Date.parse(data[data.length - 1].ts);
+  const cutoff = now - hours*3600*1000;
+  return data.filter(d => Date.parse(d.ts) >= cutoff);
+}
+
+function drawCharts(raw) {
+  const sel = document.getElementById('rangeSelect').value;
+  const now = Date.now();
+  const cutoff = now - sel*3600*1000;
+  const data = filterData(raw, sel);
+  console.log("Filtered points:", data.length, "Total points:", raw.length, "Range:", sel);
+
+  // prepare line datasets per host+protocol
+  const byHost = {};
+  data.forEach(d => {
+    const key = d.host+' '+d.check_type;
+    byHost[key] = byHost[key]||[];
+    byHost[key].push({x: Date.parse(d.ts), y: d.rt});
+  });
+
+  const lineCanvas = document.getElementById('lineChart');
+  const lineCtx = lineCanvas.getContext('2d');
+  if (lineChartObj) {
+    lineChartObj.destroy();
+    lineChartObj = null;
+  }
+
+lineChartObj = new Chart(lineCtx, {
+  type: 'line',
+  data: {
+    datasets: Object.entries(byHost).map(([label, pts]) => ({
+      label, data: pts, fill:false, tension:0.1
+    }))
+  },
+  options: {
+    parsing: false,
+    scales: {
+      x: {
+        type: 'time',
+        time: { tooltipFormat: 'yyyy-MM-dd HH:mm:ss' },
+        min: cutoff,
+        max: now
+      }
+    }
+  }
+});
+
+
+  // error bar: count errors per hour
+  const counts = {};
+  data.forEach(d => {
+    if (d.err) {
+      const hr = new Date(d.ts);
+      hr.setMinutes(0,0,0);
+      const k = hr.toISOString();
+      counts[k] = (counts[k]||0)+1;
+    }
+  });
+  const labels = Object.keys(counts).map(k => Date.parse(k));
+
+  const errs = Object.values(counts);
+
+  const barCanvas = document.getElementById('barChart');
+  const barCtx = barCanvas.getContext('2d');
+  if (barChartObj) {
+    barChartObj.destroy();
+    barChartObj = null;
+  }
+  barChartObj = new Chart(barCtx, {
+    type: 'bar',
+    data: { labels, datasets:[{ label:'Errors', data: errs }] },
+    options: {
+      parsing: false,
+
+ scales: {
+    x: {
+      type: 'time',
+      time: { unit: 'hour' },
+      min: cutoff,
+      max: now
+    }
+  }
+    }
+  });
+}
+
+(async ()=>{
+  const raw = await fetchData();
+  document.getElementById('rangeSelect').onchange = ()=> drawCharts(raw);
+  drawCharts(raw);
+})();
+</script>
+
+  </body>
+</html>

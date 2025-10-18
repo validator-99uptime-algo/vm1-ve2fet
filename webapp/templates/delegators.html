@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Delegator Beneficiaries – live snapshot</title>
+
+  <!-- Bootstrap 5 (CSS only) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
+  <!-- DataTables -->
+  <link href="https://cdn.datatables.net/1.13.8/css/dataTables.bootstrap5.min.css"
+        rel="stylesheet">
+
+  <style>
+    body { font-family: Arial, sans-serif; padding: 1.5rem; }
+    table.dataTable tbody tr:hover { background: #f6f6f6; }
+
+    /* monospace address, clipped with … */
+    .addr-clip{
+      display:inline-block;
+      max-width:160px;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      font-family:monospace;
+      line-height:16px;         /* same 16-px line as the icons */
+      vertical-align:middle;
+    }
+
+    /* drop the blank space DataTables adds above the controls row */
+    .dataTables_wrapper     { margin-top:0 !important; }          /* wrapper itself  */
+    .dataTables_wrapper .row{ margin-top:0 !important; }          /* first inner row */
+    /* remove the top-margin that DataTables adds above its controls row */
+    .dataTables_wrapper .row:first-child { margin-top: 0 !important; }
+
+/* keep table cells on one line + allow horizontal scroll */
+table.dataTable.nowrap th,
+table.dataTable.nowrap td { white-space: nowrap; }
+
+/* slightly trim address width so it doesn't wrap */
+.addr-clip { max-width: 120px; }
+
+/* keep the search input compact */
+.dataTables_filter input { max-width: 14rem; }
+
+
+  </style>
+</head>
+<body>
+
+<h3 class="mb-3">Delegator Beneficiaries – live snapshot</h3>
+<p class="small text-muted mb-0">
+  Page loaded since… <span id="age">0 s</span> ago. Reload page for most recent data.
+  <span id="algoPrice"></span><span class="text-muted"> (updates every 60 s)</span>
+</p>
+
+<div class="table-responsive">
+<table id="delTable" class="table table-sm table-striped table-bordered nowrap w-100">
+
+  <thead class="table-light">
+    <tr>
+      <th>validator</th>
+      <th>beneficiary</th>
+      <th>state</th>
+      <th class="text-end">algo_balance</th>
+      <th>staking</th>
+      <th class="text-end">fee_str</th>
+      <th class="text-end">created</th>
+      <th class="text-end">expiry</th>
+      <th class="text-end">days_left</th>
+      <th class="text-end">ad_id</th>
+      <th class="text-end">del_id</th>
+      <th class="text-end">APY 7d (%)</th>
+      <th class="text-end">APY Total (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for r in rows %}
+    <tr>
+
+<!-- validator column -->
+<td style="white-space:nowrap;">
+  {% if r.val_nfd_avatar %}
+    <img src="{{ r.val_nfd_avatar }}" style="height:16px; margin-right:0.3em;">
+  {% endif %}
+
+  {% if r.val_nfd_name %}
+    <strong>{{ r.val_nfd_name }}</strong>
+  {% else %}
+    <span style="font-family:monospace;">{{ r.val_owner_short }}</span>
+  {% endif %}
+</td>
+
+<td style="white-space:nowrap;">
+  <!-- allo.info -->
+<a href="https://allo.info/account/{{ r.beneficiary }}" target="_blank"
+   title="Open on allo.info"
+   style="margin-right:0.3em; text-decoration:none; display:inline-block;">
+    <img src="https://allo.info/favicons/favicon.ico" style="height:16px;">
+</a>
+
+  <!-- algonoderewards -->
+<a href="https://algonoderewards.com/{{ r.beneficiary }}" target="_blank"
+   title="Open on algonoderewards.com"
+   style="margin-right:0.3em; text-decoration:none; display:inline-block;">
+    <img src="https://algonoderewards.com/favicon.ico" style="height:16px;">
+</a>
+
+  <!-- raw address (full, copy-able) -->
+  <span class="addr-clip">{{ r.beneficiary }}</span>
+</td>
+
+
+      <td>{{ r.state|replace('SUBMITTED','SUBM') }}</td>
+      <td class="text-end">{{ '{:,.2f}'.format(r.algo_balance) }}</td>
+      <td>{{ r.staking_status }}</td>
+
+      <td class="text-end" data-order="{{ r.fee_num }}">{{ r.fee_str }}</td>
+      <td class="text-end">{{ r.created }}</td>
+      <td class="text-end">{{ r.expiry }}</td>
+      <td class="text-end">{{ r.days_left }}</td>
+
+      <td class="text-end">
+        <a href="/ad_contract/{{ r.ad_id }}"  target="_blank"
+           title="Open validator-ad details"
+           style="font-size:0.9em; text-decoration:none; margin-right:0.3em;">🔍</a>
+        {{ r.ad_id }}
+      </td>
+      <td class="text-end">
+        <a href="/client_contract/{{ r.del_id }}" target="_blank"
+           title="Open delegator-contract details"
+           style="font-size:0.9em; text-decoration:none; margin-right:0.3em;">🔍</a>
+        {{ r.del_id }}
+      </td>
+
+      <td class="text-end">{{ '%.2f%%' % r.apy_7d }}</td>
+      <td class="text-end">{{ '%.2f%%' % r.apy_total }}</td>
+    </tr>
+
+
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+
+<p class="small text-muted">
+  Snapshot generated when this page was rendered – reload to refresh.
+</p>
+
+<!-- JS bundles -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.8/js/dataTables.bootstrap5.min.js"></script>
+
+<script>
+  $(function () {
+
+      $('#delTable').DataTable({
+          paging: false,
+          order: [[6, 'desc']],                 // "created" column index (after adding 'staking')
+          dom: '<"mb-2 d-flex justify-content-end"f>t',  // put Search on its own line above table
+          scrollX: true
+        });
+
+  });
+const PAGE_TS = {{ page_ts }};        // injected by Jinja
+
+function fmt(ms){
+  const s = Math.floor(ms/1000),
+        m = Math.floor((s%3600)/60),
+        h = Math.floor(s/3600);
+  return (h ? String(h).padStart(2,'0')+':' : '') +
+         String(m).padStart(2,'0') + ':' +
+         String(s%60).padStart(2,'0');
+}
+
+function tick(){
+  document.getElementById('age').textContent = fmt(Date.now() - PAGE_TS);
+}
+tick(); setInterval(tick, 1000);
+
+  function fetchAlgoPrice () {
+    fetch('https://api.coingecko.com/api/v3/simple/price?ids=algorand&vs_currencies=usd')
+      .then(r => r.json())
+      .then(j => {
+        const p = j.algorand?.usd;
+        if (p) {
+          document.getElementById('algoPrice').textContent = ` · ALGO ≈ US$${p.toFixed(4)}`;
+        }
+      })
+      .catch(() => {/* ignore network / CORS errors silently */});
+  }
+  fetchAlgoPrice();                 // run once on load
+  setInterval(fetchAlgoPrice, 60_000); // refresh every 60 s
+</script>
+</body>
+</html>

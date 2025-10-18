@@ -1,0 +1,3986 @@
+{
+  "block": {
+    "bi": 9227445,
+    "earn": 218288,
+    "fc": 190600,
+    "fees": "Y76M3MSY6DKBRHBL7C3NNDXGS5IIMQVQVUAB6MP4XEMMGVF2QWNPL226CA",
+    "frac": 6886250026,
+    "gen": "mainnet-v1.0",
+    "gh": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+    "partupdabs": [
+      "2WWEXXWQQMI5QU264E77E7NJED42B44LLHZNC4DV3K576FP7LJNFPOOPAI",
+      "2SFSAHMMAD26YTHMRPST7YOVHJ5AOSFTMLLVTUTVDRV7NI2UZ54B4Z7FWM",
+      "253AUL6MZPFLOPODBOXRHHN3BBD57GRKZ7ZGN3UIG3OFUEETS4CFQFR4KY",
+      "2HDPUEQRGYUZNFC7CUM7AOIMIBYYDXKI2SVUAR3ICLZC2YSPDKF743RUAA"
+    ],
+    "pp": 9322745,
+    "prev": "blk-AMKABNND5ZVZKSFBYGHX5BTNHGWKALWHQKHVZWO4KHFOMXDEB5TQ",
+    "prev512": "z3rb0CJ48KPEkF9p84pQOmGn7SrxdxddUKMq8acdurHUN2JQ21tMRm9EISEZEi2xUDlBU3qLXOwsyrsrf5mMWA==",
+    "proto": "https://github.com/algorandfoundation/specs/tree/953304de35264fc3ef91bcd05c123242015eeaed",
+    "prp": "3UDVJVLH6KIISVHVQYBTJTBKJOLZJYDXQBDT4RR3S54N67ZXY2XZSXEYPQ",
+    "rnd": 54013201,
+    "rwcalr": 54500000,
+    "rwd": "737777777777777777777777777777777777777777777777777UFEJ2CI",
+    "seed": "/Di6p3sMXbCS578ZM0QeHuD6uiuA+Fo+BPyYPXImNNc=",
+    "spt": {
+      "0": {
+        "n": 54013184
+      }
+    },
+    "tc": 3231911088,
+    "ts": 1758803344,
+    "txn": "4omDHYUuZSP4i6Vda/wnrVmx1CRUseWTzwoCwBqRgJ8=",
+    "txn256": "IaIzCwSmXFzFUuYdy1MTGVw17dyuXgLGk2DjaPYngX0=",
+    "txn512": "nJEiO/KfVcsr5qwd4pA3It5d7T6wB9dzz3pXTcqqPlrMYKzB4Gq8tYQQ8MmsCG7aY1GBBb/kRUKvqCKQ/5qCig==",
+    "txns": [
+      {
+        "hgi": true,
+        "sig": "81WgqJKWzZY8T0vHTf7CRimnzCU8Axw/L839BjrtMPMDHXaflYu4t+Tv0+4nWpJTfjg/XqEOpWuomoZiQbY9DA==",
+        "txn": {
+          "arcv": "5TF6Z7TKUT2EJIQ4ISAI6BG7WRWXMF5TCKZ4FTGJRF2OCYOIZNRQ6PAIQ4",
+          "fee": 1000,
+          "fv": 54013193,
+          "lv": 54013293,
+          "snd": "5TF6Z7TKUT2EJIQ4ISAI6BG7WRWXMF5TCKZ4FTGJRF2OCYOIZNRQ6PAIQ4",
+          "type": "axfer",
+          "xaid": 3231910816
+        }
+      },
+      {
+        "hgi": true,
+        "sig": "yDtjFcF5e6s86hXxqioepAKoa9HVzVqgRi2L6BKrUUfcXVIt31CYc3kzwlIn1/hAdr9mVbFGfOOK8am0LzzoBg==",
+        "txn": {
+          "arcv": "5TF6Z7TKUT2EJIQ4ISAI6BG7WRWXMF5TCKZ4FTGJRF2OCYOIZNRQ6PAIQ4",
+          "fee": 1000,
+          "fv": 54013193,
+          "lv": 54013293,
+          "snd": "5TF6Z7TKUT2EJIQ4ISAI6BG7WRWXMF5TCKZ4FTGJRF2OCYOIZNRQ6PAIQ4",
+          "type": "axfer",
+          "xaid": 3231910815
+        }
+      },
+      {
+        "dt": {
+          "gd": {
+            "lastPriceRound": {
+              "at": 2,
+              "ui": 54013201
+            },
+            "pendingCost": {
+              "at": 2
+            },
+            "totalSpent": {
+              "at": 2,
+              "ui": 1495357720181
+            }
+          },
+          "itx": [
+            {
+              "dt": {
+                "gd": {
+                  "block": {
+                    "at": 2,
+                    "ui": 54013200
+                  },
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 2000
+                  },
+                  "halving_supply": {
+                    "at": 2,
+                    "ui": 49665976115200
+                  },
+                  "mined_supply": {
+                    "at": 2,
+                    "ui": 300334023884800
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175729905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239085
+                  }
+                },
+                "itx": [
+                  {
+                    "txn": {
+                      "aamt": 26214400,
+                      "arcv": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                      "fv": 54013197,
+                      "lv": 54014197,
+                      "snd": "JP3ENKDQC2BOYRMLFGKBS7RB2IVNF7VNHCFHVTRNHOENRQ6R4UN7MCNXPI",
+                      "type": "axfer",
+                      "xaid": 1284444444
+                    }
+                  }
+                ],
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 174600
+                    }
+                  }
+                },
+                "lg": [
+                  "7\ufffd\ufffd\ufffd;4\ufffd\ufffdL]\ufffd\ufffdi%\ufffdO\b\ufffd\ufffd%\ufffd-ף\ufffd!\u0015\ufffd\ufffd\ufffdo\ufffd\u0000\u0000\u0000\u0000\u0000\u0002\ufffd8"
+                ]
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 4000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175731905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239086
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 176600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 6000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175733905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239087
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 178600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 8000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175735905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239088
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 180600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 10000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175737905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239089
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 182600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 12000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175739905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239090
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 184600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 14000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175741905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239091
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 186600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 16000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175743905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239092
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 188600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 18000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175745905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239093
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 190600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 20000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175747905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239094
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 192600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 22000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175749905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239095
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 194600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 24000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175751905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239096
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 196600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 26000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175753905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239097
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 198600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 28000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175755905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239098
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 200600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 30000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175757905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239099
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 202600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 32000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175759905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239100
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 204600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 34000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175761905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239101
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 206600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 36000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175763905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239102
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 208600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 38000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175765905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239103
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 210600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 40000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175767905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239104
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 212600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 42000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175769905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239105
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 214600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 44000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175771905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239106
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 216600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 46000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175773905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239107
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 218600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 48000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175775905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239108
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 220600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 50000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175777905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239109
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 222600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 52000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175779905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239110
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 224600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 54000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175781905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239111
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 226600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 56000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175783905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239112
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 228600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 58000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175785905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239113
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 230600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 60000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175787905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239114
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 232600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 62000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175789905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239115
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 234600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 64000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175791905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239116
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 236600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 66000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175793905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239117
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 238600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 68000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175795905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239118
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 240600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 70000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175797905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239119
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 242600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 72000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175799905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239120
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 244600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 74000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175801905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239121
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 246600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 76000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175803905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239122
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 248600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 78000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175805905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239123
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 250600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 80000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175807905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239124
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 252600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 82000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175809905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239125
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 254600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 84000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175811905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239126
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 256600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 86000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175813905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239127
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 258600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 88000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175815905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239128
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 260600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 90000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175817905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239129
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 262600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 92000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175819905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239130
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 264600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 94000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175821905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239131
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 266600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 96000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175823905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239132
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 268600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 98000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175825905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239133
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 270600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 100000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175827905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239134
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 272600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 102000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175829905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239135
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 274600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 104000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175831905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239136
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 276600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 106000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175833905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239137
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 278600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 108000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175835905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239138
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 280600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 110000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175837905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239139
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 282600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 112000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175839905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239140
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 284600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 114000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175841905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239141
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 286600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 116000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175843905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239142
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 288600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 118000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175845905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239143
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 290600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 120000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175847905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239144
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 292600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 122000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175849905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239145
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 294600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 124000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175851905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239146
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 296600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 126000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175853905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239147
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 298600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 128000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175855905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239148
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 300600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 130000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175857905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239149
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 302600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 132000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175859905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239150
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 304600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 134000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175861905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239151
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 306600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 136000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175863905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239152
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 308600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 138000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175865905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239153
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 310600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 140000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175867905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239154
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 312600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 142000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175869905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239155
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 314600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 144000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175871905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239156
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 316600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 146000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175873905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239157
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 318600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 148000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175875905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239158
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 320600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 150000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175877905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239159
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 322600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 152000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175879905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239160
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 324600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 154000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175881905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239161
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 326600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 156000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175883905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239162
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 328600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 158000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175885905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239163
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 330600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 160000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175887905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239164
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 332600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 162000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175889905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239165
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 334600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 164000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175891905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239166
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 336600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 166000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175893905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239167
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 338600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 168000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175895905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239168
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 340600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 170000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175897905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239169
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 342600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 2000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 171000
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175898905
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239170
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 343600
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 1000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "gd": {
+                  "current_miner_effort": {
+                    "at": 2,
+                    "ui": 172600
+                  },
+                  "total_effort": {
+                    "at": 2,
+                    "ui": 3373175900505
+                  },
+                  "total_transactions": {
+                    "at": 2,
+                    "ui": 532239171
+                  }
+                },
+                "ld": {
+                  "0": {
+                    "effort": {
+                      "at": 2,
+                      "ui": 345200
+                    }
+                  }
+                }
+              },
+              "txn": {
+                "apaa": [
+                  "qyNwzA==",
+                  "N4PV6Ds0lphMXZnkaSWTTwjdyCXaLdej9yEVg/rXb6g="
+                ],
+                "apid": 1284326447,
+                "fee": 1600,
+                "fv": 54013197,
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            },
+            {
+              "txn": {
+                "amt": 1000,
+                "fv": 54013197,
+                "lv": 54014197,
+                "rcv": "WTMOIUST5AXWMXLMT5452LEVRSLRB23ZOJ3ROBQA2KDZW33RU4UWRYJGTI",
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "pay"
+              }
+            },
+            {
+              "txn": {
+                "aamt": 26214400,
+                "arcv": "TRCEY5UZGTATGTF5K3U42IMDT467D4EHV7S5MYJBMLMYARYJOZFATORMUM",
+                "fv": 54013197,
+                "grp": "C0cBjlqNRG1lXYFdA2Bq2v/WuowPA1ed0ogIu40TAEs=",
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "axfer",
+                "xaid": 1284444444
+              }
+            },
+            {
+              "txn": {
+                "amt": 171741,
+                "fv": 54013197,
+                "grp": "C0cBjlqNRG1lXYFdA2Bq2v/WuowPA1ed0ogIu40TAEs=",
+                "lv": 54014197,
+                "rcv": "TRCEY5UZGTATGTF5K3U42IMDT467D4EHV7S5MYJBMLMYARYJOZFATORMUM",
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "pay"
+              }
+            },
+            {
+              "dt": {
+                "itx": [
+                  {
+                    "apid": 3231911072,
+                    "txn": {
+                      "apan": 5,
+                      "apap": "BoEB",
+                      "apsu": "BoEB",
+                      "fv": 54013197,
+                      "lv": 54014197,
+                      "snd": "XSKED5VKZZCSYNDWXZJI65JM2HP7HZFJWCOBIMOONKHTK5UVKENBNVDEYM",
+                      "type": "appl"
+                    }
+                  },
+                  {
+                    "txn": {
+                      "aamt": 1723573,
+                      "arcv": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                      "fv": 54013197,
+                      "lv": 54014197,
+                      "snd": "TRCEY5UZGTATGTF5K3U42IMDT467D4EHV7S5MYJBMLMYARYJOZFATORMUM",
+                      "type": "axfer",
+                      "xaid": 1294765516
+                    }
+                  }
+                ],
+                "ld": {
+                  "1": {
+                    "asset_1_cumulative_price": {
+                      "at": 1,
+                      "bs": "\rR\u0005\ufffd\u001a\u0002\ufffd\ufffd[\ufffd\ufffd"
+                    },
+                    "asset_1_reserves": {
+                      "at": 2,
+                      "ui": 16353369779732
+                    },
+                    "asset_2_cumulative_price": {
+                      "at": 1,
+                      "bs": "\u0002\u0017&\ufffda\ufffd\ufffd2\ufffd\ufffdǀ\ufffd"
+                    },
+                    "asset_2_reserves": {
+                      "at": 2,
+                      "ui": 107137898881
+                    },
+                    "cumulative_price_update_timestamp": {
+                      "at": 2,
+                      "ui": 1758803341
+                    },
+                    "issued_pool_tokens": {
+                      "at": 2,
+                      "ui": 1075221519120
+                    }
+                  }
+                },
+                "lg": [
+                  "input_asset_id %i\u0000\u0000\u0000\u0000L\ufffd\u0011\u001c",
+                  "output_asset_id %i\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                  "swap_amount %i\u0000\u0000\u0000\u0000\u0000\u0000\u00009",
+                  "poolers_fee_amount %i\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                  "protocol_fee_amount %i\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                  "total_fee_amount %i\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+                ]
+              },
+              "txn": {
+                "apaa": [
+                  "YWRkX2xpcXVpZGl0eQ==",
+                  "ZmxleGlibGU=",
+                  "AAAAAAAAAAA="
+                ],
+                "apas": [
+                  1294765516
+                ],
+                "apat": [
+                  "TRCEY5UZGTATGTF5K3U42IMDT467D4EHV7S5MYJBMLMYARYJOZFATORMUM"
+                ],
+                "apid": 1002541853,
+                "fv": 54013197,
+                "grp": "C0cBjlqNRG1lXYFdA2Bq2v/WuowPA1ed0ogIu40TAEs=",
+                "lv": 54014197,
+                "snd": "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ",
+                "type": "appl"
+              }
+            }
+          ]
+        },
+        "hgi": true,
+        "sig": "OZpsIkcoCXyf4g0qT3K9HiURI8GdqTHA/N3XvAHm0LArXadZ+1JZyWX6SVMTyw7gxEiXu2GdnTVYrySHiUwoDA==",
+        "txn": {
+          "apaa": [
+            "eEq3eg=="
+          ],
+          "apas": [
+            1284444444,
+            1294765516
+          ],
+          "apat": [
+            "TRCEY5UZGTATGTF5K3U42IMDT467D4EHV7S5MYJBMLMYARYJOZFATORMUM",
+            "G6B5L2B3GSLJQTC5THSGSJMTJ4EN3SBF3IW5PI7XEEKYH6WXN6UGY4XAXQ"
+          ],
+          "apbx": [
+            {
+              "n": "cA=="
+            }
+          ],
+          "apfa": [
+            1284326447,
+            1002541853
+          ],
+          "apid": 1439234347,
+          "fee": 1000,
+          "fv": 54013197,
+          "lv": 54014197,
+          "note": "OQ==",
+          "snd": "WTMOIUST5AXWMXLMT5452LEVRSLRB23ZOJ3ROBQA2KDZW33RU4UWRYJGTI",
+          "type": "appl"
+        }
+      },
+      {
+        "dt": {
+          "itx": [
+            {
+              "txn": {
+                "aamt": 1131886,
+                "arcv": "GHDRSAOXBF3FVUGMF2BIHN4BGXPBEFFG4Y6KWBWQYCSAI5EK6EIWRDAPGI",
+                "fv": 54013199,
+                "grp": "7ZCqDxSZ9kmEEq/kvJHK3k9PG9LyiwZXhnCdrI1cvAY=",
+                "lv": 54014199,
+                "snd": "3SOU34IMMXFF4GKZSJ3E6VLTMEGTUCUQFA5BSV3TDJECL2UT5LV6FPSILA",
+                "type": "axfer",
+                "xaid": 312769
+              }
+            },
+            {
+              "dt": {
+                "itx": [
+                  {
+                    "txn": {
+                      "aamt": 1131886,
+                      "arcv": "MM4NTQDAT32TSVDE65YXYUPDFVMVP2LUREJCQ4PJV4MFQCW5VV23Y5SEHM",
+                      "fv": 54013199,
+                      "grp": "UrcF4mALm9rTE1lo04nDOT6NESionSR68PKNqZT5OE0=",
+                      "lv": 54014199,
+                      "snd": "GHDRSAOXBF3FVUGMF2BIHN4BGXPBEFFG4Y6KWBWQYCSAI5EK6EIWRDAPGI",
+                      "type": "axfer",
+                      "xaid": 312769
+                    }
+                  },
+                  {
+                    "dt": {
+                      "itx": [
+                        {
+                          "txn": {
+                            "amt": 5427314,
+                            "fv": 54013199,
+                            "lv": 54014199,
+                            "rcv": "GHDRSAOXBF3FVUGMF2BIHN4BGXPBEFFG4Y6KWBWQYCSAI5EK6EIWRDAPGI",
+                            "snd": "MM4NTQDAT32TSVDE65YXYUPDFVMVP2LUREJCQ4PJV4MFQCW5VV23Y5SEHM",
+                            "type": "pay"
+                          }
+                        }
+                      ],
+                      "ld": {
+                        "1": {
+                          "asset_1_cumulative_price": {
+                            "at": 1,
+                            "bs": "\u001e&\ufffd0\ufffdyMJ蛱g"
+                          },
+                          "asset_1_protocol_fees": {
+                            "at": 2,
+                            "ui": 3776566
+                          },
+                          "asset_1_reserves": {
+                            "at": 2,
+                            "ui": 5244238091
+                          },
+                          "asset_2_cumulative_price": {
+                            "at": 1,
+                            "bs": "\ufffd\ufffd\u0002\ufffd}l\ufffd\u001ee\ufffd\ufffd"
+                          },
+                          "asset_2_reserves": {
+                            "at": 2,
+                            "ui": 25215966028
+                          },
+                          "cumulative_price_update_timestamp": {
+                            "at": 2,
+                            "ui": 1758803341
+                          }
+                        }
+                      },
+                      "lg": [
+                        "input_asset_id %i\u0000\u0000\u0000\u0000\u0000\u0004\ufffd\ufffd",
+                        "input_amount %i\u0000\u0000\u0000\u0000\u0000\u0011En",
+                        "swap_amount %i\u0000\u0000\u0000\u0000\u0000\u00118+",
+                        "change %i\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                        "output_asset_id %i\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                        "output_amount %i\u0000\u0000\u0000\u0000\u0000R\ufffdr",
+                        "poolers_fee_amount %i\u0000\u0000\u0000\u0000\u0000\u0000\u000b\u000e",
+                        "protocol_fee_amount %i\u0000\u0000\u0000\u0000\u0000\u0000\u00025",
+                        "total_fee_amount %i\u0000\u0000\u0000\u0000\u0000\u0000\rC"
+                      ]
+                    },
+                    "txn": {
+                      "apaa": [
+                        "c3dhcA==",
+                        "Zml4ZWQtaW5wdXQ=",
+                        "AAAAAAAAAAE="
+                      ],
+                      "apas": [
+                        312769,
+                        0
+                      ],
+                      "apat": [
+                        "MM4NTQDAT32TSVDE65YXYUPDFVMVP2LUREJCQ4PJV4MFQCW5VV23Y5SEHM"
+                      ],
+                      "apid": 1002541853,
+                      "fv": 54013199,
+                      "grp": "UrcF4mALm9rTE1lo04nDOT6NESionSR68PKNqZT5OE0=",
+                      "lv": 54014199,
+                      "snd": "GHDRSAOXBF3FVUGMF2BIHN4BGXPBEFFG4Y6KWBWQYCSAI5EK6EIWRDAPGI",
+                      "type": "appl"
+                    }
+                  },
+                  {
+                    "txn": {
+                      "amt": 5427314,
+                      "fv": 54013199,
+                      "grp": "+8gzYHN5GGQI5gstf0yWeZCQv+/4B1xNzV4c8C6uigw=",
+                      "lv": 54014199,
+                      "rcv": "ANHL6OP7JD6RW53JIKGBU7PUVNERJ3KI2KZGMDGNDTCEZD4W3ZVEUEZ56M",
+                      "snd": "GHDRSAOXBF3FVUGMF2BIHN4BGXPBEFFG4Y6KWBWQYCSAI5EK6EIWRDAPGI",
+                      "type": "pay"
+                    }
+                  },
+                  {
+                    "dt": {
+                      "itx": [
+                        {
+                          "txn": {
+                            "aamt": 163970,
+                            "arcv": "GHDRSAOXBF3FVUGMF2BIHN4BGXPBEFFG4Y6KWBWQYCSAI5EK6EIWRDAPGI",
+                            "fv": 54013199,
+                            "lv": 54014199,
+                            "snd": "ANHL6OP7JD6RW53JIKGBU7PUVNERJ3KI2KZGMDGNDTCEZD4W3ZVEUEZ56M",
+                            "type": "axfer",
+                            "xaid": 3178895177
+                          }
+                        }
+                      ],
+                      "ld": {
+                        "1": {
+                          "asset_1_cumulative_price": {
+                            "at": 1,
+                            "bs": "\u0002비\ufffd\ufffd\ufffds}\ufffd6\ufffd"
+                          },
+                          "asset_1_reserves": {
+                            "at": 2,
+                            "ui": 1612142698
+                          },
+                          "asset_2_cumulative_price": {
+                            "at": 1,
+                            "bs": "\u0002V\ufffd(\ufffdI\ufffdBδ\ufffd"
+                          },
+                          "asset_2_protocol_fees": {
+                            "at": 2,
+                            "ui": 31328161
+                          },
+                          "asset_2_reserves": {
+                            "at": 2,
+                            "ui": 53206132590
+                          },
+                          "cumulative_price_update_timestamp": {
+                            "at": 2,
+                            "ui": 1758803341
+                          }
+                        }
+                      },
+                      "lg": [
+                        "input_asset_id %i\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                        "input_amount %i\u0000\u0000\u0000\u0000\u0000R\ufffdr",
+                        "swap_amount %i\u0000\u0000\u0000\u0000\u0000R\ufffd\ufffd",
+                        "change %i\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                        "output_asset_id %i\u0000\u0000\u0000\u0000\ufffdz\u0017I",
+                        "output_amount %i\u0000\u0000\u0000\u0000\u0000\u0002\ufffd\ufffd",
+                        "poolers_fee_amount %i\u0000\u0000\u0000\u0000\u0000\u00005\u0000",
+                        "protocol_fee_amount %i\u0000\u0000\u0000\u0000\u0000\u0000\n\ufffd",
+                        "total_fee_amount %i\u0000\u0000\u0000\u0000\u0000\u0000?\ufffd"
+                      ]
+                    },
+                    "txn": {
+                      "apaa": [
+                        "c3dhcA==",
+                        "Zml4ZWQtaW5wdXQ=",
+                        "AAAAAAAAAAE="
+                      ],
+                      "apas": [
+                        0,
+                        3178895177
+                      ],
+                      "apat": [
+                        "ANHL6OP7JD6RW53JIKGBU7PUVNERJ3KI2KZGMDGNDTCEZD4W3ZVEUEZ56M"
+                      ],
+                      "apid": 1002541853,
+                      "fv": 54013199,
+                      "grp": "+8gzYHN5GGQI5gstf0yWeZCQv+/4B1xNzV4c8C6uigw=",
+                      "lv": 54014199,
+                      "snd": "GHDRSAOXBF3FVUGMF2BIHN4BGXPBEFFG4Y6KWBWQYCSAI5EK6EIWRDAPGI",
+                      "type": "appl"
+                    }
+                  },
+                  {
+                    "txn": {
+                      "aamt": 163970,
+                      "arcv": "3SOU34IMMXFF4GKZSJ3E6VLTMEGTUCUQFA5BSV3TDJECL2UT5LV6FPSILA",
+                      "fv": 54013199,
+                      "lv": 54014199,
+                      "snd": "GHDRSAOXBF3FVUGMF2BIHN4BGXPBEFFG4Y6KWBWQYCSAI5EK6EIWRDAPGI",
+                      "type": "axfer",
+                      "xaid": 3178895177
+                    }
+                  }
+                ],
+                "lg": [
+                  "\ufffdbڞ\u0000\u0000\u0000\u0000\u0000\u0004\ufffd\ufffd\u0000\u0000\u0000\u0000\ufffdz\u0017I\u0000\u0000\u0000\u0000\u0000\u0011En\u0000\u0000\u0000\u0000\u0000\u0002\ufffd\ufffd"
+                ]
+              },
+              "txn": {
+                "apaa": [
+                  "c3dhcA==",
+                  "AAAAAAARRW4=",
+                  "AAAAAAAAAAA=",
+                  "AAAAAAAExcEAAAAAAAAAAAAAAAC9ehdJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                  "YzjZwGCe9TlUZPdxfFHjLVlX6XSJEihx6a8YWArdrXUDTr85/0j9G3dpQowaffSrSRTtSNKyZgzNHMRMj5beagAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                  "AAAAAAAAAAI="
+                ],
+                "apid": 2614712672,
+                "fv": 54013199,
+                "grp": "7ZCqDxSZ9kmEEq/kvJHK3k9PG9LyiwZXhnCdrI1cvAY=",
+                "lv": 54014199,
+                "snd": "3SOU34IMMXFF4GKZSJ3E6VLTMEGTUCUQFA5BSV3TDJECL2UT5LV6FPSILA",
+                "type": "appl"
+              }
+            },
+            {
+              "dt": {
+                "lg": [
+                  ",\ufffd\ufffd|\u0000\u0000\u0000\u0000\ufffd_\u001e\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u000f\u0000\u0000\u0000\u0000\u0000\u0004\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0011En\u0000\u0000\u0000\u0000\ufffdz\u0017I\u0000\u0000\u0000\u0000\u00002 \ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0002\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000<\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000h\ufffd\ufffd$"
+                ]
+              },
+              "txn": {
+                "apaa": [
+                  "ZW1pdF9ldmVudA==",
+                  "dXBkYXRlX3JlY3VycmluZ19vcmRlcg==",
+                  "86eAIYLPhrDdjnYH9+wQNZ/UKHVLjsTZRqUhfAsznlw=",
+                  "AAAAAAAAAw8AAAAAAATFwQAAAAAAEUVuAAAAAL16F0kAAAAAADIgjQAAAAAAAAAA//////////8AAAAAAAAC8gAAAAAAAAA8AAAAAAAAAAoAAAAAaNU1jQAAAABo09Yk"
+                ],
+                "apid": 3019195131,
+                "fv": 54013199,
+                "lv": 54014199,
+                "snd": "3SOU34IMMXFF4GKZSJ3E6VLTMEGTUCUQFA5BSV3TDJECL2UT5LV6FPSILA",
+                "type": "appl"
+              }
+            },
+            {
+              "txn": {
+                "aamt": 163,
+                "arcv": "S6VJRMN45SH4ULOTAFUQXX7ISWWQMZ4WPDOUOT6VZ3G6ACVJSMX4IYNJLM",
+                "fv": 54013199,
+                "lv": 54014199,
+                "snd": "3SOU34IMMXFF4GKZSJ3E6VLTMEGTUCUQFA5BSV3TDJECL2UT5LV6FPSILA",
+                "type": "axfer",
+                "xaid": 3178895177
+              }
+            }
+          ],
+          "lg": [
+            "o\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd!\ufffdφ\ufffdݎv\u0007\ufffd\ufffd\u00105\ufffd\ufffd(uK\ufffd\ufffd\ufffdF\ufffd!|\u000b3\ufffd\\\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u000f\u0000\u0000\u0000\u0000\u0000\u0004\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0011En\u0000\u0000\u0000\u0000\ufffdz\u0017I\u0000\u0000\u0000\u0000\u00002 \ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0002\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000<\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000h\ufffd\ufffd$",
+            "\ufffd\ufffd$\ufffd\ufffd\ufffd\ufffd!\ufffdφ\ufffdݎv\u0007\ufffd\ufffd\u00105\ufffd\ufffd(uK\ufffd\ufffd\ufffdF\ufffd!|\u000b3\ufffd\\\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u000f\ufffd&oV\ufffd\ufffdOx\u0017\ufffd&\u0010\ufffd\ufffd\u0016\ufffd\ufffd\ufffdk\ufffd\ufffd;^\ufffd>k\ufffdy\ufffd\ufffd\f\n\u0000\u0000\u0000\u0000\u0000\u0011En\u0000\u0000\u0000\u0000\u0000\u0002\ufffd\ufffd"
+          ]
+        },
+        "hgi": true,
+        "sig": "eoXu5/bMmLVW25hpbbxx/9nQ4Iev2nzxzVD5uxVtH9he+pYrqbdIgyDLc9tvLrqmp6+k6TwebDOoDRjm3kmWBA==",
+        "txn": {
+          "apaa": [
+            "ZXhlY3V0ZV9yZWN1cnJpbmdfb3JkZXI=",
+            "AAAAAAAAAw8=",
+            "AAAAAAAExcEAAAAAAAAAAAAAAAC9ehdJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+            "YzjZwGCe9TlUZPdxfFHjLVlX6XSJEihx6a8YWArdrXUDTr85/0j9G3dpQowaffSrSRTtSNKyZgzNHMRMj5beagAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+            "AAAAAAAAAAI="
+          ],
+          "apas": [
+            312769,
+            3178895177
+          ],
+          "apat": [
+            "S6VJRMN45SH4ULOTAFUQXX7ISWWQMZ4WPDOUOT6VZ3G6ACVJSMX4IYNJLM",
+            "6OTYAIMCZ6DLBXMOOYD7P3AQGWP5IKDVJOHMJWKGUUQXYCZTTZOMKDH4WA"
+          ],
+          "apbx": [
+            {
+              "n": "cgAAAAAAAAMP"
+            },
+            {
+              "i": 1,
+              "n": "ZfOngCGCz4aw3Y52B/fsEDWf1Ch1S47E2UalIXwLM55c"
+            }
+          ],
+          "apfa": [
+            3019195131,
+            2614712672
+          ],
+          "apid": 3126795999,
+          "fee": 13000,
+          "fv": 54013199,
+          "grp": "MXPgsIFtBo/WgVAwn3188MwHtJDLzSJLz+vD4ynj3w4=",
+          "lv": 54014199,
+          "snd": "TATG6VVIZJHXQF45EYIL3IAWVSJ4A27LZA5V5FB6NOLXTHPFBQFKI2OK3Q",
+          "type": "appl"
+        }
+      },
+      {
+        "hgi": true,
+        "sig": "Mq3rE5mcNRWXYNc59IioCe9yoT7WTauXT2VaAJAH6UsaTdjoSI3bvKP7yTYZIsdwDKiwbq7fS/cRxJ7Eir6YDw==",
+        "txn": {
+          "apaa": [
+            "bm9vcA=="
+          ],
+          "apas": [
+            0,
+            312769,
+            3178895177
+          ],
+          "apat": [
+            "MM4NTQDAT32TSVDE65YXYUPDFVMVP2LUREJCQ4PJV4MFQCW5VV23Y5SEHM",
+            "ANHL6OP7JD6RW53JIKGBU7PUVNERJ3KI2KZGMDGNDTCEZD4W3ZVEUEZ56M"
+          ],
+          "apfa": [
+            1002541853
+          ],
+          "apid": 2614712672,
+          "fv": 54013199,
+          "grp": "MXPgsIFtBo/WgVAwn3188MwHtJDLzSJLz+vD4ynj3w4=",
+          "lv": 54014199,
+          "snd": "TATG6VVIZJHXQF45EYIL3IAWVSJ4A27LZA5V5FB6NOLXTHPFBQFKI2OK3Q",
+          "type": "appl"
+        }
+      },
+      {
+        "hgi": true,
+        "sig": "jsRhXQFvHKmVO2VK780xJy4rwv6gs0/a2quQDmCgD99yLUECsoFE70omcY/LS3DZhagEDJ77vR7BXqcDpxf/BQ==",
+        "txn": {
+          "apaa": [
+            "AAAAAAAAAAA="
+          ],
+          "apfa": [
+            971335616
+          ],
+          "apid": 1167143153,
+          "fee": 1000,
+          "fv": 54013199,
+          "grp": "Si7ivJ+LjrpzQTghOa5cJIGa40BfiuTADv5DMroO8mc=",
+          "lv": 54014199,
+          "snd": "VFLEEB4ESBPKETRQMTBGEDY77NBUUKRQCVD2GRPUXGLXQEQN6QDYAO6YSM",
+          "type": "appl"
+        }
+      },
+      {
+        "dt": {
+          "gd": {
+            "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0000\u00019y\ufffd\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0007\ufffd"
+            },
+            "\u0000\u0000\u0000\u0000\u0000\u0004\ufffd\ufffd": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0000\u0005\ufffd\ufffd\ufffd\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0001\ufffd"
+            },
+            "\u0000\u0000\u0000\u0000\u0001\ufffd\ufffdp": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0000\u0005\ufffd\ufffd\ufffd\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0001\ufffd"
+            },
+            "\u0000\u0000\u0000\u0000\u0011(\ufffd\ufffd": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\t\ufffd"
+            },
+            "\u0000\u0000\u0000\u0000\u0017\u0004\ufffdU": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0019\ufffd\ufffd16\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd"
+            },
+            "\u0000\u0000\u0000\u0000\u0017\u0004\ufffd\ufffd": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd"
+            },
+            "\u0000\u0000\u0000\u0000)d3\ufffd": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0000\u00019y\ufffd\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0007\ufffd"
+            },
+            "\u0000\u0000\u0000\u0000/F\u001f\u0017": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0000\u00019y\ufffd\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0007\ufffd"
+            },
+            "\u0000\u0000\u0000\u00004\ufffd\ufffd\u0003": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd"
+            },
+            "\u0000\u0000\u0000\u00004\ufffdqG": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0000\f\u0001\ufffd\u001d\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0007\ufffd"
+            },
+            "\u0000\u0000\u0000\u00005>ҭ": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0000\u0001Е\ufffd\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0007\ufffd"
+            },
+            "\u0000\u0000\u0000\u0000?\u001d\ufffd\ufffd": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0019\ufffd\ufffd16\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd"
+            },
+            "\u0000\u0000\u0000\u0000G\ufffd\ufffd\ufffd": {
+              "at": 1,
+              "bs": "\u0000\u0000\u0000\u0000\u0001<\ufffd\u0000\u0000\u0000\u0000h\ufffd5\ufffd\u0000\u0000\u0000\u0000\u0000\u0000'\u0010"
+            }
+          }
+        },
+        "hgi": true,
+        "sig": "krkUM1eJs5uNY9JmIh7w6FBMBeJ4ZxpIFyCw+i01cKwASd5OqYHty9dw7A0eVMOHgicx82DKmUKR1mao1rEUBQ==",
+        "txn": {
+          "apaa": [
+            "dQ==",
+            "AAAAAAAAAAAAAAAAATl5xAAAAAApZDOBAAAAAAE5ecQAAAAAL0YfFwAAAAABOXnEAAAAAAHhq3AAAAAABfW24wAAAAAABMXBAAAAAAX2hKsAAAAAFwTVVQAAABn40zE2AAAAAD8d8JEAAAAZ+NMxNgAAAAAXBOHkAAAAAO66kfsAAAAANOTBAwAAAADuupH7AAAAADU+0q0AAAAAAdCVnwAAAAA06HFHAAAAAAwBjx0AAAAAAZ6FAgAAAAAAAAAAAAAAABEog+QAAAAAAAAA9wAAAABHh/6JAAAAAAE8f9A="
+          ],
+          "apid": 971323141,
+          "fee": 1000,
+          "fv": 54013199,
+          "grp": "Si7ivJ+LjrpzQTghOa5cJIGa40BfiuTADv5DMroO8mc=",
+          "lv": 54014199,
+          "snd": "VFLEEB4ESBPKETRQMTBGEDY77NBUUKRQCVD2GRPUXGLXQEQN6QDYAO6YSM",
+          "type": "appl"
+        }
+      }
+    ]
+  }
+}

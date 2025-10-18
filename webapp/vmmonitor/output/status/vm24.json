@@ -1,0 +1,6 @@
+{
+  "host": "vm24.local",
+  "reachable": false,
+  "error": "ssh or remote script failed",
+  "collected_at": 1760814326
+}

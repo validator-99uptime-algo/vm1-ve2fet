@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>VM Status</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 16px; }
+    h1 { margin-bottom: 6px; }
+    .meta { color: #555; margin-bottom: 16px; }
+    .error { background: #fee; border: 1px solid #f88; padding: 8px 12px; border-radius: 6px; margin-bottom: 12px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #eee; padding: 8px 10px; text-align: left; vertical-align: middle; }
+    th { background: #fafafa; position: sticky; top: 0; z-index: 1; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; line-height: 18px; }
+    .ok { background: #e6ffed; color: #106b21; border: 1px solid #b2f5c6; }
+    .warn { background: #fff7e6; color: #8a5700; border: 1px solid #ffe1a6; }
+    .err { background: #ffe6e6; color: #7a0000; border: 1px solid #ffb2b2; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .small { color: #666; font-size: 12px; }
+  </style>
+</head>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    function fmt(ts) {
+      var n = Number(ts);
+      if (!n) return '?';
+      var d = new Date(n * 1000);
+      return d.toLocaleString(); // uses the web station's locale & timezone
+    }
+    document.querySelectorAll('.epoch').forEach(function (el) {
+      var v = el.getAttribute('data-epoch') || '';
+      el.textContent = fmt(v);
+    });
+  });
+</script>
+
+<body>
+  <h1>VM Status</h1>
+
+
+  <div class="meta">
+    Generated:
+    <span id="gen-ts" class="mono epoch" data-epoch="{{ generated_at_epoch }}"></span>
+    <span class="small">(<span id="gen-age">…</span> ago)</span>
+  </div>
+
+
+  {% if load_error %}
+    <div class="error">Error loading data: {{ load_error }}</div>
+  {% endif %}
+
+  <table>
+    <thead>
+      <tr>
+        <th>Host</th>
+        <th>Kernel</th>
+        <th>Uptime</th>
+        <th>vCPU</th>
+        <th>Swap Used</th>
+        <th>Disk / Free</th>
+        <th>Pending (sec)</th>
+        <th>Reboot?</th>
+        <th>Algorand</th>
+        <th>Logs</th>
+        <th>Apt Refreshed</th>
+        <th>Collected</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for h in hosts %}
+        {% set reachable = h.get('reachable', False) %}
+        {% set reboot_required = h.get('reboot_required', False) %}
+        {% set pending = h.get('pending_updates', 0) %}
+        {% set sec = h.get('security_updates', 0) %}
+        {% set logs = h.get('algorand_logs', {}) %}
+        {% set node_log_present = logs.get('node_log_present', False) %}
+        {% set any_logs_present = logs.get('any_logs_present', False) %}
+        {% set badge_class = 'ok' if (reachable and (not reboot_required) and pending == 0) else ('warn' if reachable else 'err') %}
+        <tr>
+          <td>
+            <div><strong>{{ h.get('hostname','?') }}</strong></div>
+            <div class="small mono">{{ h.get('host','?') }}</div>
+            {% if not reachable %}
+              <div class="badge err">unreachable</div>
+              {% if h.get('error') %}<div class="small">{{ h.get('error') }}</div>{% endif %}
+            {% endif %}
+          </td>
+          <td class="mono">{{ h.get('kernel','?') }}</td>
+          <td>{{ _human_uptime(h.get('uptime_seconds', 0)) }}</td>
+          <td>{{ h.get('vcpus', 0) }}</td>
+          <td>{{ h.get('swap_used_mb', 0) }} MB</td>
+          <td class="mono">{{ h.get('disk_root_free','?') }}</td>
+          <td>
+            <span class="badge {{ badge_class }}">{{ pending }}</span>
+            {% if sec and sec > 0 %}<span class="badge warn" title="Security updates">sec {{ sec }}</span>{% endif %}
+          </td>
+          <td>
+            {% if reboot_required %}
+              <span class="badge warn">required</span>
+              {% if h.get('reboot_pkgs') %}<div class="small mono">{{ h.get('reboot_pkgs') }}</div>{% endif %}
+            {% else %}
+              <span class="badge ok">no</span>
+            {% endif %}
+          </td>
+          <td class="mono">
+            {% if h.get('algod_version') %}
+              {{ h.get('algod_version') }}
+            {% else %}
+              <span class="small">n/a</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if node_log_present %}
+              <span class="badge warn">node.log</span>
+            {% else %}
+              <span class="badge ok">node.log off</span>
+            {% endif %}
+            {% if any_logs_present %}
+              <div class="small">*.log present</div>
+            {% endif %}
+          </td>
+          <td class="mono"><span class="epoch" data-epoch="{{ h.get('apt_last_refresh_epoch', 0) }}"></span></td>
+          <td class="mono"><span class="epoch" data-epoch="{{ h.get('collected_at', 0) }}"></span></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    function fmtEpoch(ts) {
+      var n = Number(ts);
+      if (!n) return '?';
+      var d = new Date(n * 1000);
+      return d.toLocaleString(); // browser locale & timezone
+    }
+
+    function fmtAge(sec) {
+      if (sec < 0 || isNaN(sec)) return '?';
+      var s = Math.floor(sec);
+      var m = Math.floor(s / 60); s = s % 60;
+      var h = Math.floor(m / 60); m = m % 60;
+      var d = Math.floor(h / 24); h = h % 24;
+      if (d > 0)  return d + 'd ' + h + 'h';
+      if (h > 0)  return h + 'h ' + m + 'm';
+      if (m > 0)  return m + 'm ' + s + 's';
+      return s + 's';
+    }
+
+    // Render all epoch timestamps into local time
+    document.querySelectorAll('.epoch').forEach(function (el) {
+      var v = el.getAttribute('data-epoch') || '';
+      el.textContent = fmtEpoch(v);
+    });
+
+    // Live “age since Generated” updater
+    var genEl = document.getElementById('gen-ts');
+    var ageEl = document.getElementById('gen-age');
+    function updateAge() {
+      if (!genEl || !ageEl) return;
+      var ts = Number(genEl.getAttribute('data-epoch') || 0);
+      if (!ts) { ageEl.textContent = '?'; return; }
+      var nowSec = Math.floor(Date.now() / 1000);
+      ageEl.textContent = fmtAge(nowSec - ts);
+    }
+    updateAge();
+    setInterval(updateAge, 1000); // update every second
+  });
+</script>
+
+
+</body>
+</html>
