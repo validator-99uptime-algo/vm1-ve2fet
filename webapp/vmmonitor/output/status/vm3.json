@@ -2,5 +2,5 @@
   "host": "vm3.local",
   "reachable": false,
   "error": "ssh or remote script failed",
-  "collected_at": 1760814321
+  "collected_at": 1760815222
 }

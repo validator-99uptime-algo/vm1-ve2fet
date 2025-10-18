@@ -2,5 +2,5 @@
   "host": "vm33.local",
   "reachable": false,
   "error": "ssh or remote script failed",
-  "collected_at": 1760814329
+  "collected_at": 1760815229
 }

@@ -1,3 +1,5 @@
 venv/
 *.log
 valar_database/
+*.pyc
+__pycache__/

@@ -1,1 +1,6 @@
-{"host":"algorand-node","reachable":true,"hostname":"algorand-node","kernel":"6.8.0-85-generic","uptime_seconds":1021949,"vcpus":16,"disk_root_free":"195G","swap_used_mb":163,"pending_updates":3,"security_updates":0,"reboot_required":false,"reboot_pkgs":"","apt_last_refresh_epoch":1760749284,"algod_version":"4.3.0.stable","algorand_logs":{"node_log_present":false,"any_logs_present":false},"error":"","collected_at":1760814363}
+{
+  "host": "vm1.local",
+  "reachable": false,
+  "error": "ssh or remote script failed",
+  "collected_at": 1760815222
+}
