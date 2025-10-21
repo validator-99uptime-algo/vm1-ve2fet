@@ -5,6 +5,8 @@
   <title>VM Status</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
+    .goodnum { color: #106b21; font-weight: 600; }  /* green text for 0 */
+    .badnum  { color: #b00000; font-weight: 600; }  /* red text for non-zero */
     body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 16px; }
     h1 { margin-bottom: 6px; }
     .meta { color: #555; margin-bottom: 16px; }
@@ -59,6 +61,7 @@
         <th>vCPU</th>
         <th>Swap Used</th>
         <th>Disk / Free</th>
+        <th>CatchupStart 24h</th>
         <th>Pending (sec)</th>
         <th>Reboot?</th>
         <th>Algorand</th>
@@ -90,11 +93,17 @@
           <td>{{ _human_uptime(h.get('uptime_seconds', 0)) }}</td>
           <td>{{ h.get('vcpus', 0) }}</td>
           <td>{{ h.get('swap_used_mb', 0) }} MB</td>
+
           <td class="mono">{{ h.get('disk_root_free','?') }}</td>
+          <td class="mono">
+            {% set c = h.get('catchup_last_24h', -1) %}
+            <span class="{{ 'goodnum' if c == 0 else 'badnum' }}">{{ c }}</span>
+          </td>
           <td>
             <span class="badge {{ badge_class }}">{{ pending }}</span>
             {% if sec and sec > 0 %}<span class="badge warn" title="Security updates">sec {{ sec }}</span>{% endif %}
           </td>
+
           <td>
             {% if reboot_required %}
               <span class="badge warn">required</span>

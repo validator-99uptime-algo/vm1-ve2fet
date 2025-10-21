@@ -107,10 +107,6 @@ REMOTESCRIPT
   echo "[$HOST] OK -> $STATUS_DIR/${VM_NAME}.json" | tee -a "$RUN_LOG"
 done
 
-
-# ---- Update CatchupStart counts (last 24h) for all VMs
-python3 "$BASE_DIR/update_catchup_24h.py" | tee -a "$RUN_LOG"
-
 # Aggregate
 {
   echo '['
